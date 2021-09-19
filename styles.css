@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+
+}
+
+.container-1 {
+    flex: 3;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    height: 10%;
+    border-bottom: 3px solid #ccc;
+}
+
+.header h4{
+    position: absolute;
+    right: 30px;
+    font-size: 1.6em;
+}
+
+.header h3 {
+    position: absolute;
+    left: 20px;
+    font-size: 1.6em;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 70%;
+    align-items: flex-start;
+    width: 60%;
+    position: absolute;
+    top: 130px;
+    left: 200px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 460px;
+    height: 200px;
+}
+
+
+
+.box-1, .box-3 {
+    flex-direction: column;
+}
+
+.box-1, .box-3{
+    width: 452px;
+    height: 60px;
+}
+
+.box-1 p , .box-3 p {
+    color: #474A57;
+    font-size: 14px;
+}
+
+.box-2 {
+    text-align: justify;
+    width: 452px;
+    height: 107px;
+    border:  #8247FF solid 1px;
+    border-radius: 8px;
+    margin: 5px;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+.box-2 p{
+    margin: 18px 15px;
+}
+
+.box-4 select {
+    width: 452px;
+    height: 74px;
+    border-radius: 8px;
+    font-weight: 800;
+    background: transparent;
+    border-color: #ccc;
+}
+
+.box-5 {
+    display: flex;
+    height: 60px;
+    width: 452px;
+    border: 1px solid #FFF500;
+}
+.box-5 .back {
+    flex: 1;
+    height: 60px;
+    border-radius: 8px;
+    background: white;
+    border-color: white;
+    box-shadow: transparent;
+    font-weight: 900;
+    border-style: solid;
+}
+
+.box-5 .btn {
+    flex: 1;
+    height: 60px;
+    background: #8247FF;
+    border-radius: 8px;
+    border-color:  #8247FF;
+    color: white;
+    font-weight: 900;
+    border-style: solid;
+}
+
+
+.container-2 {
+    flex: 1;
+    background-color: #ccc;
+
+}
